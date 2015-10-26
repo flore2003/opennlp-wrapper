@@ -4,7 +4,7 @@
   "description": "A simple node.js wrapper for Apache OpenNLP",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/"
+    "test": "mocha test/ -s 0"
   },
   "keywords": [
     "nlp",
@@ -27,6 +27,7 @@
     "java": "^0.6.0"
   },
   "devDependencies": {
+    "async": "^1.5.0",
     "mocha": "^2.3.3",
     "should": "^7.1.1"
   }
