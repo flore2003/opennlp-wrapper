@@ -1,0 +1,33 @@
+{
+  "name": "opennlp-wrapper",
+  "version": "0.1.0",
+  "description": "A simple node.js wrapper for Apache OpenNLP",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "keywords": [
+    "nlp",
+    "opennlp",
+    "natural",
+    "language",
+    "text",
+    "tokenize"
+  ],
+  "author": {
+    "name": "Florian Reifschneider",
+    "email": "florian@rocketloop.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flore2003/opennlp-wrapper.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "java": "^0.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
+}
